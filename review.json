@@ -1,0 +1,20 @@
+{
+  "znamka": 4,
+  "slabiny": [
+    "Hero (PC i mobil 390 px): pravou polovinu a na mobilu celou druhou obrazovku zabírá prázdný čárkovaný rámeček „Doplníme: portrét Jana Cilicha“. Web nemá jediný obraz, přitom Rafael Rezidenci Metelku odmítl právě kvůli chybějícímu silnému obrazu. Oprava: počkat na fotky z Úschovny (20. 10.) a hero postavit na velkém portrétu Jana přes celou výšku. Pokud se má poslat dřív, dát místo něj aspoň velkou fotku Teplic (lázeňská kolonáda, Zámecké náměstí) s duotónem v cihlové a navy a h1 položit přes ni.",
+    "Sekce Mapa, Co říkají lidé, Krátká videa a Aktuální nabídka: čtyři sekce za sebou jsou jen čárkované boxy s textem „Doplníme…“ a „Zde bude reference…“ (PC buňky 4–7, mobil 3–6). Oprava: dokud nejsou podklady, sekce Reference, Videa a Nabídka vůbec nevykreslovat (podmínka v Jinja podle _data). Mapu zatím nahradit statickou mapou Teplicka bez bodů s jednou větou o 450 obchodech. Stránka se tak zkrátí na Příběh → Teplicko → Kontakt a nebude působit odfláknutě.",
+    "Kontakt (tmavá patička) a sekce „Teplicko je můj domov“: místo kontaktu stojí „Kontaktní údaje doplníme podle klienta.“ a v hlavičce chybí CTA i telefon nebo e-mail. Text o Teplicku tvrdí „certifikovaný makléř RE/MAX G8 Reality“, „Ústí nad Labem“ a „vstup do mezinárodní Hall of Fame“, ale nic z toho brief.json neobsahuje. Oprava: doplnit do kontaktu aspoň e-mail z vlákna nebo jméno a Teplice, do hlavičky vpravo dát cihlové tlačítko „Odhad ceny zdarma“ a nedoložená tvrzení smazat nebo nejdřív doplnit do briefu se zdrojem. Brief navíc chce RE/MAX branding potlačit."
+  ],
+  "zavazne": [
+    "Hero, Mapa šťastných konců, Co říkají lidé, Krátká videa, Aktuální nabídka: prázdné sekce s placeholdery „Doplníme…“ a „Zde bude reference…“. Web nemá jedinou fotku a většina stránky jsou prázdné rámečky.",
+    "Sekce Kontakt: chybí jakýkoli kontakt (e-mail, telefon, adresa), je tam jen „Kontaktní údaje doplníme podle klienta.“ Formulář je v demo režimu, takže návštěvník se makléři nemá jak ozvat.",
+    "Sekce „Teplicko je můj domov“ a title/description: „mezinárodní Hall of Fame“, „certifikovaný makléř RE/MAX G8 Reality“ a „Ústí nad Labem“ nemají oporu v brief.json (ten uvádí jen Teplice, 450 transakcí za 12 let, exkluzivitu a aukce)."
+  ],
+  "silne": [
+    "Koncept „každý prodej je příběh s dobrým koncem“ vychází přímo z klientova motta a nese se textově celým webem: časová osa Začátek–Cesta–Konec, Mapa šťastných konců, „Tady Váš příběh začíná“.",
+    "Paleta přesně podle briefu (#f4eee2, #1c2b36, #b4472b). Young Serif má správnou diakritiku, typografická hierarchie je čistá a nic nepřetéká na žádné ze 6 šířek.",
+    "Texty mluví v první osobě a lidsky, bez šablonových frází. Hlavní akce „Chci odhad ceny zdarma“ je jasná a v hero vlevo."
+  ],
+  "verdikt": "Silný textový koncept, ale web je zatím drátěný model: žádná fotka, čtyři prázdné sekce a žádný kontakt. V tomhle stavu klientovi neposílat. Předělat, až dorazí fotky (20. 10.), a do té doby skrýt sekce bez podkladů a smazat nedoložená tvrzení.",
+  "_hash": "d4756e86c3784602b9430997937bdbed3924e245"
+}

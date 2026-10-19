@@ -2,14 +2,32 @@
  "motto": "Na konci se mnou vždy všechno dobře dopadne.",
  "motto2": "A jestli to dobře nedopadlo, tak to ještě není konec.",
  "kapitoly": [
-  {"nadpis": "Začátek: poznáme se", "text": "Nejdřív si v klidu povíme, co potřebujete: prodat, koupit, nebo jen zjistit, kolik Vaše nemovitost stojí. Odhad ceny je zdarma a nezávazný. Bez tlaku a bez šablon."},
-  {"nadpis": "Cesta: exkluzivita a aukce", "text": "Pracuji výhradně na základě exkluzivního zastoupení. Díky tomu se můžu nemovitosti věnovat naplno, připravit ji, nabídnout ji správným lidem a podle situace využít aukci, která pomáhá dosáhnout nejlepší ceny."},
-  {"nadpis": "Konec: klíče v ruce", "text": "Doprovázím Vás až do předání. Za 12 let jsem takhle dotáhl přes 450 obchodů a zatím se mi osvědčilo jedno: když se něco zadrhne, je to jen další kapitola, ne konec."}
+  {
+   "nadpis": "Začátek: poznáme se",
+   "text": "Nejdřív si v klidu povíme, co potřebujete: prodat, koupit, nebo jen zjistit, kolik Vaše nemovitost stojí. Odhad ceny je zdarma a nezávazný. Bez tlaku a bez šablon."
+  },
+  {
+   "nadpis": "Cesta: exkluzivita a aukce",
+   "text": "Pracuji výhradně na základě exkluzivního zastoupení. Díky tomu se můžu nemovitosti věnovat naplno, připravit ji, nabídnout ji správným lidem a podle situace využít aukci, která pomáhá dosáhnout nejlepší ceny."
+  },
+  {
+   "nadpis": "Konec: klíče v ruce",
+   "text": "Doprovázím Vás až do předání. Za 12 let jsem takhle dotáhl přes 450 obchodů a zatím se mi osvědčilo jedno: když se něco zadrhne, je to jen další kapitola, ne konec."
+  }
  ],
- "o_mne": "Jsem certifikovaný realitní makléř RE/MAX G8 Reality a působím v Teplicích, Ústí nad Labem a okolí. Za dvanáct let praxe mám za sebou přes 450 úspěšných transakcí a vstup do mezinárodní Hall of Fame. Teplicko je můj domov, a proto mi na lidech, kteří tu prodávají nebo kupují, záleží.",
+ "o_mne": "Jsem realitní makléř a působím v Teplicích a okolí. Za dvanáct let praxe mám za sebou přes 450 úspěšných transakcí. Teplicko je můj domov, a proto mi na lidech, kteří tu prodávají nebo kupují, záleží.",
  "reference": [
-  {"text": "Zde bude reference spokojeného klienta. Přidáme ji, jakmile pošlete odkaz na hodnocení.", "kdo": "jméno nebo „RD v Teplicích“, bez soukromých údajů"},
-  {"text": "Zde bude druhá reference z úspěšného prodeje.", "kdo": "doplníme z Vašich podkladů"},
-  {"text": "Zde bude třetí reference. V administraci je budete moci přidávat sám.", "kdo": "doplníme z Vašich podkladů"}
+  {
+   "text": "Zde bude reference spokojeného klienta. Přidáme ji, jakmile pošlete odkaz na hodnocení.",
+   "kdo": "jméno nebo „RD v Teplicích“, bez soukromých údajů"
+  },
+  {
+   "text": "Zde bude druhá reference z úspěšného prodeje.",
+   "kdo": "doplníme z Vašich podkladů"
+  },
+  {
+   "text": "Zde bude třetí reference. V administraci je budete moci přidávat sám.",
+   "kdo": "doplníme z Vašich podkladů"
+  }
  ]
 }
