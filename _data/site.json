@@ -1,0 +1,55 @@
+{
+  "slug": "cilich",
+  "nazev": "Jan Cilich – realitní makléř Teplice",
+  "url": "https://webhunter-navrhy.github.io/cilich/",
+  "base": "/cilich/",
+  "lang": "cs",
+  "popis": "Realitní makléř v Teplicích a Ústí nad Labem. 12 let praxe, přes 450 transakcí, exkluzivní zastoupení a aukce. Odhad ceny nemovitosti zdarma.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "placeholder.jpg",
+  "logo": "",
+  "theme_color": "#f4eee2",
+  "typ": "RealEstateAgent",
+  "ico": "",
+  "kontakt": {
+    "email": "",
+    "telefon": "",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "Teplice",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Poptávka z webu Jan Cilich"
+  },
+  "nav": [
+    {
+      "text": "Příběh",
+      "href": "#pribeh"
+    },
+    {
+      "text": "Mapa",
+      "href": "#mapa"
+    },
+    {
+      "text": "Reference",
+      "href": "#reference"
+    },
+    {
+      "text": "Videa",
+      "href": "#videa"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

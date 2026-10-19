@@ -1,0 +1,15 @@
+{
+ "slug": "cilich",
+ "firma": "Jan Cilich – realitní makléř Teplice",
+ "obor": ["reality"],
+ "zdroj": "mail klienta (vlákno INBOX 14425, 13851)",
+ "fakta": [
+  {"typ":"motto","text":"Na konci se mnou vždy všechno dobře dopadne","zdroj":"mail klienta"},
+  {"typ":"cislo","text":"450 transakcí za 12 let","zdroj":"mail klienta"},
+  {"typ":"sluzba","text":"exkluzivní zastoupení, aukce nemovitostí","zdroj":"mail klienta"},
+  {"typ":"misto","text":"Teplice","zdroj":"mail klienta"}
+ ],
+ "styl_reference": "porner-reality.cz, bez výrazného RE/MAX brandingu",
+ "barvy": {"doporucene": ["#f4eee2","#1c2b36","#b4472b"]},
+ "chybi": ["fotky (pošle 20. 10. přes úschovnu)","odkazy na videa/Reels","reference od klientů","seznam prodaných nemovitostí pro mapu","veřejný kontakt a rozhodnutí o e-mailu","logo"]
+}
