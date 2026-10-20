@@ -107,3 +107,16 @@ ol.kapitoly[role=list]{margin-top:3.5rem;position:relative;padding-left:clamp(1.
 .hero .portret img{width:100%;height:auto;max-height:none;mix-blend-mode:multiply;filter:brightness(1.06) contrast(1.04);margin-bottom:-2px}
 @media (max-width:52rem){.hero-text{padding:2.5rem 0 1.5rem}.hero .portret{margin:0 -1rem;aspect-ratio:4/4.6;max-width:none;overflow:hidden}.hero .portret img{height:100%;width:100%;object-fit:cover;object-position:top}}
 a[href^="mailto:"]{display:inline-block;padding:10px 0;min-height:44px;box-sizing:border-box}
+
+.hero .portret img{mix-blend-mode:normal;filter:none}
+.pribeh-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.pribeh-grid ol.kapitoly[role=list]{margin-top:3rem}
+.cesta{width:100%;max-width:22rem;justify-self:end;height:auto}
+@media (max-width:52rem){.pribeh-grid{grid-template-columns:1fr}.cesta{max-width:15rem;justify-self:center;margin-top:1rem}}
+.odkazy{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;margin-top:2.5rem;list-style:none;padding:0}
+.odkazy a{display:flex;flex-direction:column;gap:.2rem;padding:1.1rem 1.25rem;min-height:4.5rem;border:1px solid var(--line);background:rgba(255,255,255,.4);text-decoration:none;border-radius:.3rem}
+.odkazy a:hover{border-color:var(--accent)}
+.odkazy strong{font-family:var(--head);font-weight:400;font-size:1.15rem}
+.odkazy span{font-size:.9rem;color:var(--muted)}
+.prodane{margin-top:2rem;columns:2;list-style:none;padding:0}
+.skip:focus{padding:10px 16px;min-height:44px;display:inline-flex;align-items:center}

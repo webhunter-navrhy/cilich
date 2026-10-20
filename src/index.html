@@ -13,18 +13,34 @@
         <a class="btn btn-linka" href="#pribeh">Jak pracuji</a>
       </div>
     </div>
-    <figure class="portret">{{ img('portret.jpg', 'Jan Cilich, realitní makléř z Teplic', sizes='(max-width: 52rem) 80vw, 40vw') }}</figure>
+    <figure class="portret">{{ img('portret_hero.jpg', 'Jan Cilich, realitní makléř z Teplic', sizes='(max-width: 52rem) 80vw, 40vw') }}</figure>
   </div>
 </section>
 
 <section class="sekce pribeh" id="pribeh">
-  <div class="wrap">
-    <h2>Každý prodej je příběh. Ten Váš má dobrý konec.</h2>
-    <ol class="kapitoly" role="list">
-      {% for k in data.obsah.kapitoly %}
-      <li class="kapitola"><h3>{{ k.nadpis }}</h3><p>{{ k.text }}</p></li>
-      {% endfor %}
-    </ol>
+  <div class="wrap pribeh-grid">
+    <div>
+      <h2>Každý prodej je příběh. Ten Váš má dobrý konec.</h2>
+      <ol class="kapitoly" role="list">
+        {% for k in data.obsah.kapitoly %}
+        <li class="kapitola"><h3>{{ k.nadpis }}</h3><p>{{ k.text }}</p></li>
+        {% endfor %}
+      </ol>
+    </div>
+    <svg class="cesta" viewBox="0 0 320 560" role="img" aria-label="Klikatá cesta, která vede k domu">
+      <title>Správná cesta s makléřem z Teplic</title>
+      <circle cx="238" cy="70" r="34" fill="#e7c9a0" opacity=".7"/>
+      <path d="M0 470 Q90 400 170 430 T320 380 V560 H0Z" fill="#e4dac4"/>
+      <path d="M0 520 Q120 450 200 490 T320 450 V560 H0Z" fill="#d9cdb2"/>
+      <path d="M72 560 C20 470 250 470 150 380 C60 305 250 290 170 215 C130 180 190 160 200 150" fill="none" stroke="#1c2b36" stroke-width="46" stroke-linecap="round" opacity=".92"/>
+      <path d="M72 560 C20 470 250 470 150 380 C60 305 250 290 170 215 C130 180 190 160 200 150" fill="none" stroke="#f4eee2" stroke-width="3" stroke-dasharray="3 14" stroke-linecap="round"/>
+      <g transform="translate(176 92)">
+        <path d="M0 40 L30 12 L60 40 V82 H0Z" fill="#b4472b"/>
+        <path d="M-6 42 L30 8 L66 42" fill="none" stroke="#1c2b36" stroke-width="5" stroke-linejoin="round"/>
+        <rect x="24" y="56" width="14" height="26" fill="#f4eee2"/>
+        <rect x="8" y="48" width="11" height="11" fill="#f4eee2"/>
+      </g>
+    </svg>
   </div>
 </section>
 
@@ -40,6 +56,27 @@
       <h2>Teplicko je můj domov</h2>
       <p>{{ data.obsah.o_mne }}</p>
     </div>
+  </div>
+</section>
+
+{% if data.obsah.prodane %}
+<section class="sekce svetla" id="prodane">
+  <div class="wrap">
+    <h2>Prodané nemovitosti</h2>
+    <ul class="prodane" role="list">
+      {% for n in data.obsah.prodane %}<li>{{ n.misto }}{% if n.popis %} – {{ n.popis }}{% endif %}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+<section class="sekce svetla" id="odkazy">
+  <div class="wrap">
+    <h2>Najdete mě i tady</h2>
+    <p class="uvod">Videa z Teplicka, novinky z trhu a reference klientů.</p>
+    <ul class="odkazy" role="list">
+      {% for o in data.obsah.odkazy %}<li><a href="{{ o.href }}" target="_blank" rel="noopener"><strong>{{ o.text }}</strong><span>{{ o.pozn }}</span></a></li>{% endfor %}
+    </ul>
   </div>
 </section>
 

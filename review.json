@@ -1,18 +1,17 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Hero na PC (1440, buňka 1) je pořád neopravený. Portrét zůstal jako středně velký rámeček (asi 230×345 px) se světle šedým studiovým pozadím na béžové ploše a vedle velkého h1 působí jako vložená fotka. Je to stejný problém, kvůli kterému Rafael odmítl Metelku. Oprava: portrét roztáhnout na celou výšku hero v pravé polovině (od hlavičky až po spodní hranu sekce), bez rámečku a zaoblení, s ořezem do pasu. Šedé pozadí vyříznout, nebo ho tónovat do #f4eee2, aby fotka splynula s plochou.",
-    "Hero na mobilu (390 px, buňky 1–2) má stejnou vadu jako PC. Portrét je pod tlačítky jako šedý obdélník s okrajem a nesedí šířkou k textovému sloupci, takže tvoří cizí šedou plochu přes dvě obrazovky. Oprava: použít stejný vyříznutý nebo do #f4eee2 tónovaný portrét, dát ho na plnou šířku obrazovky bez okrajů a oříznout ho na poměr cca 4:5 (do pasu), aby nezabral víc než jednu obrazovku.",
-    "Kontakt a patička: odkaz jan.cilich@re-max.cz má podle QA pořád jen 133×37 px, takže je to výtka z minula, která zůstala neopravená. Oprava: dát odkazu display:inline-block, padding 10px 0 a min-height 44px (stejně i v patičce). Pak znovu pustit qa.py, aby varování zmizelo."
+    "Hero na PC (1440, buňka 1) pořád není opravený. Portrét je dál samostatný obdélník (v koláži asi 230×345 px) se světle šedým studiovým pozadím, které na béžové ploše #f4eee2 vypadá jako vložená fotka, tedy stejná chyba jako u Metelky v1. Oprava: portrét dát přes celou pravou polovinu hero, od spodní hrany hlavičky až po spodní hranu sekce, s object-fit: cover a ořezem do pasu, bez rámečku a zaoblení. Šedé pozadí vyříznout (PNG/WebP s průhledností), nebo ho tónovat do #f4eee2, aby fotka s plochou splynula.",
+    "Hero na mobilu (390 px, buňky 1–2) je opravený jen zčásti. Portrét je teď na plnou šířku a oříznutý do pasu, ale světle šedé pozadí fotky pořád tvoří cizí šedý blok mezi béžovým textem nahoře a béžovou sekcí „Každý prodej je příběh“ dole. Oprava: použít stejnou vyříznutou nebo do #f4eee2 tónovanou verzi portrétu jako na PC, aby fotka do sekce splynula a nevypadala jako vložený obdélník.",
+    "Odkaz „Přeskočit na obsah“ (a.skip) má podle QA na mobilu jen 135×27 px a je to poslední varování v qa.json. Oprava: v .skip:focus nastavit padding 10px 16px a min-height 44px (display:inline-flex; align-items:center) a znovu pustit qa.py, aby skončil bez varování."
   ],
   "zavazne": [],
   "silne": [
-    "Sekce „Teplicko je můj domov“ je opravená. Druhý studiový portrét zmizel a sekce už nepřetéká ani nenechává prázdnou béžovou plochu.",
-    "Hlavička na mobilu je teď jednořádková (jméno a kompaktní cihlové CTA vpravo, asi 53 px) a menu je schované. Výtka je splněná.",
-    "Koncept „každý prodej je příběh s dobrým koncem“ vychází z klientova motta a drží ho celá stránka: časová osa Začátek–Cesta–Konec i „Tady Váš příběh začíná“ v kontaktu.",
-    "Všechna fakta (12 let, 450 obchodů, exkluzivita, aukce, Teplice a Ústí n. L.) mají oporu v briefu. Nic není vymyšlené a RE/MAX se nezdůrazňuje, jak klient chtěl.",
-    "Young Serif a Figtree mají v pořádku diakritiku. Paleta drží doporučené barvy #f4eee2, #1c2b36 a #b4472b a na žádné šířce nic nepřetéká."
+    "Odkaz jan.cilich@re-max.cz v kontaktu už v QA nevyskakuje jako malý dotykový cíl, takže výtka z minula je opravená.",
+    "Koncept „každý prodej je příběh, který dobře končí“ vychází přímo z klientova motta. Drží ho časová osa Začátek, Cesta, Konec i závěrečné „Tady Váš příběh začíná“.",
+    "Všechna fakta mají oporu v briefu (12 let, přes 450 obchodů, exkluzivita a aukce, Teplice a Ústí nad Labem). RE/MAX je potlačený podle přání klienta.",
+    "Typografie Young Serif + Figtree s čistými háčky, paleta přesně z briefu (#f4eee2, #1c2b36, #b4472b), na žádné z 6 šířek nic nepřetéká a CTA „Odhad ceny zdarma“ je v hlavičce pořád vidět."
   ],
-  "verdikt": "Dvě ze tří výtek jsou opravené (sekce Teplicko a mobilní hlavička), ale hlavní slabina zůstala: hero s malým portrétem v šedém rámečku, který nenese obraz, a k tomu malý dotykový cíl u e-mailu. Do opravy hero na PC i mobilu web neposílat.",
-  "_hash": "373c8662b94b63e33a1f5773cac1bbbb5f2a3d27"
+  "verdikt": "Opravit. Kontakt je opravený a mobilní portrét je na plnou šířku, ale hlavní výtka zůstává: portrét se šedým studiovým pozadím v hero na PC i na mobilu pořád působí jako vložená fotka, a dokud se nevyřízne nebo nesplyne s béžovou, web na 8 nedosáhne.",
+  "_hash": "992378eb74fe146aa3c2959f290f0a0f09516c0c"
 }

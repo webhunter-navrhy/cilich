@@ -16,5 +16,33 @@
   }
  ],
  "o_mne": "Jsem realitní makléř a působím v Teplicích, Ústí nad Labem a okolí. Za dvanáct let praxe mám za sebou přes 450 úspěšných transakcí. Teplicko je můj domov, a proto mi na lidech, kteří tu prodávají nebo kupují, záleží.",
- "reference": []
+ "reference": [],
+ "odkazy": [
+  {
+   "text": "Profil, ocenění a recenze",
+   "href": "https://www.remax-czech.cz/reality/re-max-g8-reality-6/jan-cilich/",
+   "pozn": "nabídka nemovitostí a prodané nemovitosti"
+  },
+  {
+   "text": "Instagram",
+   "href": "https://www.instagram.com/jancilich/",
+   "pozn": "@jancilich"
+  },
+  {
+   "text": "YouTube",
+   "href": "https://www.youtube.com/@jancilich3248",
+   "pozn": "videa z Teplicka a z praxe"
+  },
+  {
+   "text": "TikTok",
+   "href": "https://www.tiktok.com/@jancilich",
+   "pozn": "@jancilich"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/cilich.jan/",
+   "pozn": "cilich.jan"
+  }
+ ],
+ "prodane": []
 }
