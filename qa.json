@@ -3,7 +3,7 @@
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Dotykové cíle <40 px na mobilu: 2× (např. a.skip \"Přeskočit na obsah\" 135×27; a \"jan.cilich@re-max.cz\" 133×37)"
+    "Dotykové cíle <40 px na mobilu: 1× (např. a.skip \"Přeskočit na obsah\" 135×27)"
   ],
   "metriky": {
     "sirky": {
@@ -58,7 +58,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 2,
+    "maly_dotykovy_cil": 1,
     "font_nadpis": "Young Serif",
     "font_text": "Figtree",
     "podstranky": {

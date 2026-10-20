@@ -99,3 +99,11 @@ ol.kapitoly[role=list]{margin-top:3.5rem;position:relative;padding-left:clamp(1.
 .paticka a,.konec-note a{display:inline-block;padding:.8rem .2rem;min-height:2.75rem;line-height:1.2}
 .hero .portret img{filter:brightness(1.04) contrast(1.03)}
 @media (max-width:52rem){.hero .portret{max-width:none;margin:0 -1rem;aspect-ratio:4/4.4;overflow:hidden}.hero .portret img{height:100%;object-fit:cover;object-position:top}}
+/* hero: portrét přes celou výšku sekce, bez rámečku, splývá s plochou */
+.hero{padding:0;overflow:hidden;background:#f4eee2}
+.hero-grid{align-items:stretch;gap:clamp(1rem,3vw,3rem)}
+.hero-text{padding:clamp(3rem,8vw,7rem) 0;align-self:center}
+.hero .portret{margin:0;align-self:end;max-height:none;overflow:hidden;background:none;border-radius:0}
+.hero .portret img{width:100%;height:auto;max-height:none;mix-blend-mode:multiply;filter:brightness(1.06) contrast(1.04);margin-bottom:-2px}
+@media (max-width:52rem){.hero-text{padding:2.5rem 0 1.5rem}.hero .portret{margin:0 -1rem;aspect-ratio:4/4.6;max-width:none;overflow:hidden}.hero .portret img{height:100%;width:100%;object-fit:cover;object-position:top}}
+a[href^="mailto:"]{display:inline-block;padding:10px 0;min-height:44px;box-sizing:border-box}
