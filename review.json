@@ -1,17 +1,18 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Hero na PC (1440): výtka z minula je pořád neopravená. Portrét je dál středně velký rámeček se světle šedým studiovým pozadím položený na béžovou plochu. Je to vložená fotka a ne silný obraz, tedy přesně ten problém, kvůli kterému Rafael odmítl Metelku. Portrét roztáhnout na celou výšku hero v pravé polovině, bez rámečku a zaoblení, ořez do pasu. Pozadí fotky vyříznout nebo tónovat do #f4eee2, aby fotka splynula s plochou a vyvážila velký h1 vlevo.",
-    "Sekce „Teplicko je můj domov“ (PC buňky 3–4, mobil buňky 3–4): stále neopraveno. Vedle krátkého odstavce stojí vysoký portrét, který přetéká na další obrazovku, a pod textem zůstává prázdná béžová plocha. Je to navíc druhý studiový portrét ze stejného focení. Fotku oříznout na výšku textu (poměr 4:5, max. cca 420 px, na mobilu nejvýš 320 px), nebo ji nahradit fotkou Jana v terénu či v Teplicích z Úschovny (20. 10.). Do volného místa nic nevymýšlet.",
-    "Hlavička na mobilu (390 px) a e-mail v kontaktu: cihlové CTA přibylo, ale hlavička se teď skládá do tří řádků (jméno, menu, tlačítko). Má kolem 115 px a ubírá skoro pětinu obrazovky. Menu na mobilu schovat nebo zkrátit a tlačítko „Odhad ceny zdarma“ dát kompaktně vpravo vedle jména (výška min. 40 px), tak aby hlavička byla jednořádková, max. cca 64 px. Odkaz jan.cilich@re-max.cz v kontaktu i v patičce QA pořád hlásí jako 133×37. Doplnit mu padding nebo display:inline-block s min-height 44 px."
+    "Hero na PC (1440, buňka 1) je pořád neopravený. Portrét zůstal jako středně velký rámeček (asi 230×345 px) se světle šedým studiovým pozadím na béžové ploše a vedle velkého h1 působí jako vložená fotka. Je to stejný problém, kvůli kterému Rafael odmítl Metelku. Oprava: portrét roztáhnout na celou výšku hero v pravé polovině (od hlavičky až po spodní hranu sekce), bez rámečku a zaoblení, s ořezem do pasu. Šedé pozadí vyříznout, nebo ho tónovat do #f4eee2, aby fotka splynula s plochou.",
+    "Hero na mobilu (390 px, buňky 1–2) má stejnou vadu jako PC. Portrét je pod tlačítky jako šedý obdélník s okrajem a nesedí šířkou k textovému sloupci, takže tvoří cizí šedou plochu přes dvě obrazovky. Oprava: použít stejný vyříznutý nebo do #f4eee2 tónovaný portrét, dát ho na plnou šířku obrazovky bez okrajů a oříznout ho na poměr cca 4:5 (do pasu), aby nezabral víc než jednu obrazovku.",
+    "Kontakt a patička: odkaz jan.cilich@re-max.cz má podle QA pořád jen 133×37 px, takže je to výtka z minula, která zůstala neopravená. Oprava: dát odkazu display:inline-block, padding 10px 0 a min-height 44px (stejně i v patičce). Pak znovu pustit qa.py, aby varování zmizelo."
   ],
   "zavazne": [],
   "silne": [
-    "Závažná výtka je opravená: „RE/MAX G8 Reality“ z textu zmizel. Ústí nad Labem má teď v briefu zdroj (mail klienta 19. 10.), takže v textu, title i description je doložené. Neověřitelná věta „pořád si pamatuju jména“ je nahrazená doloženým „Dvanáct let, přes čtyři sta padesát obchodů“.",
-    "Na PC přibylo cihlové CTA „Odhad ceny zdarma“ za menu a hlavní akce je teď vidět na každé obrazovce.",
-    "Koncept „každý prodej je příběh s dobrým koncem“ vychází přímo z klientova motta. Nese ho časová osa Začátek / Cesta / Konec i závěrečné „Tady Váš příběh začíná“.",
-    "Typografie Young Serif + Figtree drží háčky, hierarchie je čistá a paleta odpovídá doporučeným barvám z briefu. QA nehlásí žádné přetečení na 6 šířkách a stránka přenese jen 0,15 MB."
+    "Sekce „Teplicko je můj domov“ je opravená. Druhý studiový portrét zmizel a sekce už nepřetéká ani nenechává prázdnou béžovou plochu.",
+    "Hlavička na mobilu je teď jednořádková (jméno a kompaktní cihlové CTA vpravo, asi 53 px) a menu je schované. Výtka je splněná.",
+    "Koncept „každý prodej je příběh s dobrým koncem“ vychází z klientova motta a drží ho celá stránka: časová osa Začátek–Cesta–Konec i „Tady Váš příběh začíná“ v kontaktu.",
+    "Všechna fakta (12 let, 450 obchodů, exkluzivita, aukce, Teplice a Ústí n. L.) mají oporu v briefu. Nic není vymyšlené a RE/MAX se nezdůrazňuje, jak klient chtěl.",
+    "Young Serif a Figtree mají v pořádku diakritiku. Paleta drží doporučené barvy #f4eee2, #1c2b36 a #b4472b a na žádné šířce nic nepřetéká."
   ],
-  "verdikt": "Závažné vady jsou pryč a CTA přibylo, proto známka stoupá na 7. Hero na PC a portrét v sekci Teplicko se ale nezměnily a právě slabý obraz v hero je důvod, proč Rafael odmítl Metelku. Opravit a poslat znovu.",
-  "_hash": "30f067e3b5e17a8c3e55f933ee65032c9024372e"
+  "verdikt": "Dvě ze tří výtek jsou opravené (sekce Teplicko a mobilní hlavička), ale hlavní slabina zůstala: hero s malým portrétem v šedém rámečku, který nenese obraz, a k tomu malý dotykový cíl u e-mailu. Do opravy hero na PC i mobilu web neposílat.",
+  "_hash": "373c8662b94b63e33a1f5773cac1bbbb5f2a3d27"
 }

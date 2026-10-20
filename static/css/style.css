@@ -96,3 +96,6 @@ ol.kapitoly[role=list]{margin-top:3.5rem;position:relative;padding-left:clamp(1.
 .hero .portret{border-radius:0}
 .konec-note a{display:inline-block;padding:.8rem 0;min-height:2.75rem;line-height:1.2}
 @media (max-width:52rem){.hlavicka nav{display:none}.hlavicka .wrap{flex-wrap:nowrap;min-height:3.75rem}.logo{font-size:1rem}.btn-hlavicka{min-height:2.5rem;padding:0 .8rem;font-size:.85rem}}
+.paticka a,.konec-note a{display:inline-block;padding:.8rem .2rem;min-height:2.75rem;line-height:1.2}
+.hero .portret img{filter:brightness(1.04) contrast(1.03)}
+@media (max-width:52rem){.hero .portret{max-width:none;margin:0 -1rem;aspect-ratio:4/4.4;overflow:hidden}.hero .portret img{height:100%;object-fit:cover;object-position:top}}
