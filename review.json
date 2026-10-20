@@ -1,19 +1,17 @@
 {
-  "znamka": 6,
+  "znamka": 7,
   "slabiny": [
-    "Hlavička (PC i mobil 390 px): z minulé výtky zůstalo nesplněné cihlové CTA. Vpravo jsou pořád jen odkazy Příběh / Teplicko / Kontakt. Doplnit cihlové tlačítko „Odhad ceny zdarma“ s kotvou na #kontakt, na PC za menu a na mobilu jako kompaktní tlačítko vpravo vedle jména (min. 40 px na výšku). E-mail jan.cilich@re-max.cz v kontaktu zvětšit na plnou velikost textu s výškou cíle aspoň 44 px, QA ho hlásí jako 133×37.",
-    "Hero na PC (1440): portrét je jen středně velký rámeček s bílým studiovým pozadím položený na béžovou. Působí jako vložená fotka a ne jako silný obraz, a právě kvůli tomu Rafael odmítl Metelku. Portrét zvětšit na celou výšku hero v pravé polovině, bez rámečku, s ořezem do pasu. Bílé pozadí fotky vyříznout nebo tónovat do #f4eee2, aby fotka splynula s plochou a h1 vlevo měla protiváhu.",
-    "Sekce „Teplicko je můj domov“ (PC buňky 3–4): krátký odstavec stojí vedle vysokého portrétu. Pod textem zůstává velká prázdná béžová plocha a fotka přetéká na další obrazovku. Navíc je to už druhý studiový portrét ze stejného focení. Portrét tu oříznout na výšku textu (poměr 4:5, max. cca 420 px) nebo ho nahradit fotkou Jana v terénu či v Teplicích z Úschovny (20. 10.). Do prázdného místa nic nevymýšlet."
+    "Hero na PC (1440): výtka z minula je pořád neopravená. Portrét je dál středně velký rámeček se světle šedým studiovým pozadím položený na béžovou plochu. Je to vložená fotka a ne silný obraz, tedy přesně ten problém, kvůli kterému Rafael odmítl Metelku. Portrét roztáhnout na celou výšku hero v pravé polovině, bez rámečku a zaoblení, ořez do pasu. Pozadí fotky vyříznout nebo tónovat do #f4eee2, aby fotka splynula s plochou a vyvážila velký h1 vlevo.",
+    "Sekce „Teplicko je můj domov“ (PC buňky 3–4, mobil buňky 3–4): stále neopraveno. Vedle krátkého odstavce stojí vysoký portrét, který přetéká na další obrazovku, a pod textem zůstává prázdná béžová plocha. Je to navíc druhý studiový portrét ze stejného focení. Fotku oříznout na výšku textu (poměr 4:5, max. cca 420 px, na mobilu nejvýš 320 px), nebo ji nahradit fotkou Jana v terénu či v Teplicích z Úschovny (20. 10.). Do volného místa nic nevymýšlet.",
+    "Hlavička na mobilu (390 px) a e-mail v kontaktu: cihlové CTA přibylo, ale hlavička se teď skládá do tří řádků (jméno, menu, tlačítko). Má kolem 115 px a ubírá skoro pětinu obrazovky. Menu na mobilu schovat nebo zkrátit a tlačítko „Odhad ceny zdarma“ dát kompaktně vpravo vedle jména (výška min. 40 px), tak aby hlavička byla jednořádková, max. cca 64 px. Odkaz jan.cilich@re-max.cz v kontaktu i v patičce QA pořád hlásí jako 133×37. Doplnit mu padding nebo display:inline-block s min-height 44 px."
   ],
-  "zavazne": [
-    "Sekce „Teplicko je můj domov“ a SEO title/description: pořád tu je „Jsem realitní makléř RE/MAX G8 Reality“ a „působím v Teplicích, Ústí nad Labem a okolí“, v title i description „v Teplicích a Ústí nad Labem“. Brief.json uvádí jen Teplice a výslovně chce RE/MAX branding potlačit. „RE/MAX G8 Reality“ a „Ústí nad Labem“ smazat (text i meta) nebo je nejdřív doplnit do briefu se zdrojem. Stejně tak ověřit nebo zmírnit větu „A pořád si pamatuju jména“ v tmavém pásu."
-  ],
+  "zavazne": [],
   "silne": [
-    "Prázdné sekce s „Doplníme…“ jsou pryč. Stránka má teď čistý rytmus Hero → Příběh (časová osa) → tmavý citát → Teplicko → Kontakt a nepůsobí odfláknutě.",
-    "Koncept „každý prodej je příběh s dobrým koncem“ vychází přímo z klientova motta a nese ho h1, časová osa Začátek / Cesta / Konec i nadpis kontaktu „Tady Váš příběh začíná“.",
-    "Paleta přesně podle briefu (#f4eee2, #1c2b36, #b4472b). Young Serif s Figtree má správnou diakritiku, hierarchie je jasná a na 390 px nic nepřetéká.",
-    "Kontakt funguje: je tu formulář a viditelný e-mail. Hero má skutečný portrét Jana místo placeholderu."
+    "Závažná výtka je opravená: „RE/MAX G8 Reality“ z textu zmizel. Ústí nad Labem má teď v briefu zdroj (mail klienta 19. 10.), takže v textu, title i description je doložené. Neověřitelná věta „pořád si pamatuju jména“ je nahrazená doloženým „Dvanáct let, přes čtyři sta padesát obchodů“.",
+    "Na PC přibylo cihlové CTA „Odhad ceny zdarma“ za menu a hlavní akce je teď vidět na každé obrazovce.",
+    "Koncept „každý prodej je příběh s dobrým koncem“ vychází přímo z klientova motta. Nese ho časová osa Začátek / Cesta / Konec i závěrečné „Tady Váš příběh začíná“.",
+    "Typografie Young Serif + Figtree drží háčky, hierarchie je čistá a paleta odpovídá doporučeným barvám z briefu. QA nehlásí žádné přetečení na 6 šířkách a stránka přenese jen 0,15 MB."
   ],
-  "verdikt": "Velký posun: placeholdery zmizely, web má skutečné fotky a kontakt. Zůstávají ale nedoložená tvrzení o RE/MAX G8 a Ústí nad Labem, která se klientovi poslat nesmí. Po jejich odstranění, přidání CTA do hlavičky a zvětšení hero portrétu je web blízko 8.",
-  "_hash": "2f4bbe11d38f33e57e272f5e1e9de645b37412ad"
+  "verdikt": "Závažné vady jsou pryč a CTA přibylo, proto známka stoupá na 7. Hero na PC a portrét v sekci Teplicko se ale nezměnily a právě slabý obraz v hero je důvod, proč Rafael odmítl Metelku. Opravit a poslat znovu.",
+  "_hash": "30f067e3b5e17a8c3e55f933ee65032c9024372e"
 }

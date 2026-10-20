@@ -92,3 +92,7 @@ ol.kapitoly[role=list]{margin-top:3.5rem;position:relative;padding-left:clamp(1.
 .btn-hlavicka{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1.1rem;background:#b4472b;color:#fff;border-radius:.3rem;text-decoration:none;font-weight:600;font-size:.95rem;white-space:nowrap}
 .hlavicka .wrap{flex-wrap:wrap;gap:.5rem 1.25rem}
 .konec-note a{display:inline-flex;align-items:center;min-height:2.75rem;font-size:1.05rem}
+.omne{max-width:46rem}.omne p{font-size:1.2rem;line-height:1.65;margin-top:1.25rem;max-width:none}
+.hero .portret{border-radius:0}
+.konec-note a{display:inline-block;padding:.8rem 0;min-height:2.75rem;line-height:1.2}
+@media (max-width:52rem){.hlavicka nav{display:none}.hlavicka .wrap{flex-wrap:nowrap;min-height:3.75rem}.logo{font-size:1rem}.btn-hlavicka{min-height:2.5rem;padding:0 .8rem;font-size:.85rem}}
