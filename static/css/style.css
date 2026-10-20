@@ -120,3 +120,4 @@ a[href^="mailto:"]{display:inline-block;padding:10px 0;min-height:44px;box-sizin
 .odkazy span{font-size:.9rem;color:var(--muted)}
 .prodane{margin-top:2rem;columns:2;list-style:none;padding:0}
 .skip:focus{padding:10px 16px;min-height:44px;display:inline-flex;align-items:center}
+.skip{padding:10px 16px;min-height:44px;display:inline-flex;align-items:center;box-sizing:border-box}
