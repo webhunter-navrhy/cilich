@@ -44,18 +44,21 @@
   </div>
 </section>
 
-<section class="sekce cisla-pas">
-  <div class="wrap">
-    <p class="velka">Dvanáct let, přes čtyři sta padesát obchodů.<br>Každý z nich měl svůj příběh.</p>
-  </div>
-</section>
-
 <section class="sekce" id="omne">
   <div class="wrap omne">
     <div>
       <h2>Teplicko je můj domov</h2>
       <p>{{ data.obsah.o_mne }}</p>
+      <p class="velka-vlozka">Dvanáct let, přes čtyři sta padesát obchodů. Každý z nich měl svůj příběh.</p>
     </div>
+    <svg class="mapka" viewBox="0 0 320 260" role="img" aria-labelledby="mt"><title id="mt">Mapa: Teplice a Ústí nad Labem</title>
+      <path d="M20 190 C70 150 90 170 130 130 S210 120 250 70 S290 50 300 30" fill="none" stroke="#1c2b36" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 12" opacity=".35"/>
+      <path d="M10 215 C80 190 120 225 190 205 S280 215 312 190" fill="none" stroke="#cfc3ab" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="130" cy="130" r="13" fill="#b4472b"/><circle cx="130" cy="130" r="5" fill="#f4eee2"/>
+      <text x="150" y="126" font-size="17" font-family="serif" fill="#1c2b36">Teplice</text>
+      <circle cx="262" cy="64" r="8" fill="#1c2b36"/>
+      <text x="196" y="48" font-size="15" font-family="serif" fill="#1c2b36">Ústí nad Labem</text>
+    </svg>
   </div>
 </section>
 
@@ -73,9 +76,8 @@
 <section class="sekce svetla" id="odkazy">
   <div class="wrap">
     <h2>Najdete mě i tady</h2>
-    <p class="uvod">Videa z Teplicka, novinky z trhu a reference klientů.</p>
-    <ul class="odkazy" role="list">
-      {% for o in data.obsah.odkazy %}<li><a href="{{ o.href }}" target="_blank" rel="noopener"><strong>{{ o.text }}</strong><span>{{ o.pozn }}</span></a></li>{% endfor %}
+        <ul class="odkazy" role="list">
+      {% for o in data.obsah.odkazy %}<li><a href="{{ o.href }}" target="_blank" rel="noopener">{{ o.text }}</a></li>{% endfor %}
     </ul>
   </div>
 </section>

@@ -124,3 +124,11 @@ a[href^="mailto:"]{display:inline-block;padding:10px 0;min-height:44px;box-sizin
 @media (min-width:52.01rem){.hero .portret{display:flex;align-items:flex-end}.hero .portret img{height:100%;object-fit:cover;object-position:top center;max-height:46rem}}
 .hero .portret img{-webkit-mask-image:linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%)}
 .cesta{-webkit-mask-image:linear-gradient(to bottom,#000 72%,transparent 100%);mask-image:linear-gradient(to bottom,#000 72%,transparent 100%)}
+.omne{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.mapka{width:100%;max-width:26rem;height:auto;justify-self:center}
+.velka-vlozka{font-family:var(--head);font-size:1.25rem;margin-top:1.5rem}
+.odkazy{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;margin-top:1.5rem;list-style:none;padding:0}
+.odkazy a{display:inline-flex;align-items:center;min-height:44px;padding:0 .2rem;border:0;background:none;border-bottom:2px solid var(--accent);border-radius:0;font-family:var(--head);font-size:1.15rem}
+@media (max-width:52rem){.omne{grid-template-columns:1fr}}
+@media (min-width:52.01rem){.hero-grid{grid-template-columns:1fr 1fr}.hero .portret{max-height:none}.hero .portret img{max-height:none;height:auto;width:100%}}
+@media (max-width:52rem){.hero-grid{display:flex;flex-direction:column}.hero .portret{order:-1;margin:0 -1rem;aspect-ratio:4/4.2}}
