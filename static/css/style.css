@@ -81,3 +81,7 @@ ol.kapitoly[role=list]{margin-top:3.5rem;position:relative;padding-left:clamp(1.
 .paticka a{padding:.4rem 0;display:inline-block}
 @media (max-width:52rem){.hero-grid,.mapa-grid,.dvou{grid-template-columns:1fr}.portret{max-width:20rem;aspect-ratio:4/5}.reference,.videa{grid-template-columns:1fr}.video{aspect-ratio:16/9}.hlavicka nav{gap:0 1rem}.hlavicka nav a{font-size:.88rem;min-width:2.75rem;justify-content:center}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.kapitoly::after{animation:none!important;transform:scaleY(1)!important}}
+.portret{aspect-ratio:auto;overflow:hidden;background:#e9e1d0}
+.portret img{display:block;width:100%;height:auto;object-fit:cover}
+.hero .portret{max-height:44rem}.hero .portret img{max-height:44rem;object-position:top}
+.portret-druhy{max-width:24rem}

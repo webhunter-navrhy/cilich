@@ -4,16 +4,16 @@
   "url": "https://webhunter-navrhy.github.io/cilich/",
   "base": "/cilich/",
   "lang": "cs",
-  "popis": "Realitní makléř v Teplicích. 12 let praxe, přes 450 transakcí, exkluzivní zastoupení a aukce. Odhad ceny nemovitosti zdarma.",
+  "popis": "Realitní makléř v Teplicích a Ústí nad Labem. 12 let praxe, přes 450 transakcí, exkluzivní zastoupení a aukce. Odhad ceny nemovitosti zdarma.",
   "navrh": true,
   "domena": "",
-  "og_image": "placeholder.jpg",
+  "og_image": "portret.jpg",
   "logo": "",
   "theme_color": "#f4eee2",
   "typ": "RealEstateAgent",
   "ico": "",
   "kontakt": {
-    "email": "",
+    "email": "jan.cilich@re-max.cz",
     "telefon": "",
     "adresa": {
       "ulice": "",
@@ -36,16 +36,8 @@
       "href": "#pribeh"
     },
     {
-      "text": "Mapa",
-      "href": "#mapa"
-    },
-    {
-      "text": "Reference",
-      "href": "#reference"
-    },
-    {
-      "text": "Videa",
-      "href": "#videa"
+      "text": "Teplicko",
+      "href": "#omne"
     },
     {
       "text": "Kontakt",

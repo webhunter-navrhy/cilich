@@ -1,5 +1,5 @@
 {% extends "_base.html" %}
-{% set titulek = 'Jan Cilich – realitní makléř v Teplicích' %}
+{% set titulek = 'Jan Cilich – realitní makléř v Teplicích a Ústí nad Labem' %}
 {% set cesta = '' %}
 {% block obsah %}
 <section class="hero">
@@ -10,12 +10,10 @@
       <p class="hero-pod">{{ data.obsah.motto2 }}</p>
       <div class="tlacitka">
         <a class="btn" href="#kontakt">Chci odhad ceny zdarma</a>
-        <a class="btn btn-linka" href="#nabidka">Hledám nemovitost</a>
+        <a class="btn btn-linka" href="#pribeh">Jak pracuji</a>
       </div>
     </div>
-    <figure class="portret slot" aria-label="Místo pro portrét">
-      <figcaption>Doplníme: portrét Jana Cilicha<br><span>fotky pošle klient přes úschovnu</span></figcaption>
-    </figure>
+    <figure class="portret">{{ img('portret.jpg', 'Jan Cilich, realitní makléř z Teplic', sizes='(max-width: 52rem) 80vw, 40vw') }}</figure>
   </div>
 </section>
 
@@ -36,55 +34,13 @@
   </div>
 </section>
 
-<section class="sekce" id="mapa">
-  <div class="wrap mapa-grid">
-    <div>
-      <h2>Mapa šťastných konců</h2>
-      <p>Všechny prodané nemovitosti na jedné mapě. Uvidíte, kde jsem prodával, a že to není jen slib na papíře.</p>
-    </div>
-    <div class="mapa slot" aria-label="Místo pro mapu prodaných nemovitostí">
-      <p>Doplníme: interaktivní mapa prodaných nemovitostí<br><span>podle seznamu, který pošle klient</span></p>
-    </div>
-  </div>
-</section>
-
-<section class="sekce svetla" id="reference">
-  <div class="wrap">
-    <h2>Co říkají lidé, kterým jsem pomohl</h2>
-    <div class="reference">
-      {% for r in data.obsah.reference %}
-      <blockquote class="ref slot"><p>{{ r.text }}</p><footer>{{ r.kdo }}</footer></blockquote>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="sekce" id="videa">
-  <div class="wrap">
-    <h2>Krátká videa místo stock fotek</h2>
-    <p class="uvod">Reels a videa z mojí práce a z Teplicka. Přidáme je podle odkazů, které pošle klient.</p>
-    <div class="videa">
-      <div class="video slot"><p>Doplníme: video 1</p></div>
-      <div class="video slot"><p>Doplníme: video 2</p></div>
-      <div class="video slot"><p>Doplníme: video 3</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="sekce svetla" id="nabidka">
-  <div class="wrap dvou">
-    <div>
-      <h2>Aktuální nabídka a poptávka</h2>
-      <p>Co právě prodávám a co hledají kupující. Nabídku si budete moct měnit sám v administraci, případně ji napojíme na realitní systém.</p>
-    </div>
-    <div class="slot nabidka-slot"><p>Doplníme: odkaz na nemovitosti nebo výpis nabídky</p></div>
-  </div>
-</section>
-
 <section class="sekce" id="omne">
   <div class="wrap dvou">
-    <h2>Teplicko je můj domov</h2>
-    <p>{{ data.obsah.o_mne }}</p>
+    <figure class="portret portret-druhy">{{ img('portret2.jpg', 'Jan Cilich zve k rozhovoru o prodeji nemovitosti', sizes='(max-width: 52rem) 80vw, 40vw') }}</figure>
+    <div>
+      <h2>Teplicko je můj domov</h2>
+      <p>{{ data.obsah.o_mne }}</p>
+    </div>
   </div>
 </section>
 
@@ -93,7 +49,7 @@
     <div>
       <h2>Tady Váš příběh začíná</h2>
       <p>Napište mi, co potřebujete. Odhad ceny nemovitosti je zdarma a nezávazný.</p>
-      <p class="konec-note">Kontaktní údaje doplníme podle klienta.</p>
+      <p class="konec-note">Nebo rovnou e-mailem: <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
     </div>
     {% include "_formular.html" %}
   </div>
